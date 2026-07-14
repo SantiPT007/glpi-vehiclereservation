@@ -1,0 +1,64 @@
+# Gestão e Reserva de Veículos - translation template
+# Copyright (C) 2026 Santiago Almendra
+# This file is distributed under the same license as the vehiclereservation plugin.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: vehiclereservation 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-16 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/Vehicle.php
+msgid "Vehicle"
+msgid_plural "Vehicles"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Vehicle.php
+msgid "Name"
+msgstr ""
+
+#: src/Vehicle.php
+msgid "License plate"
+msgstr ""
+
+#: src/Vehicle.php
+msgid "Make"
+msgstr ""
+
+#: src/Vehicle.php
+msgid "Model"
+msgstr ""
+
+#: src/Vehicle.php
+msgid "Year"
+msgstr ""
+
+#: src/Vehicle.php
+msgid "VIN (chassis number)"
+msgstr ""
+
+#: src/Vehicle.php
+msgid "Comment"
+msgstr ""
+
+#: src/Vehicle.php
+msgid "License plate is required."
+msgstr ""
+
+#: setup.php
+msgid "This plugin requires GLPI >= %s"
+msgstr ""
+
+#: setup.php
+msgid "Requires the \"Reservation Alert\" (reservationalert) plugin installed and enabled — it provides the tray notifications and the reservations cron."
+msgstr ""

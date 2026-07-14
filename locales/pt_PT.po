@@ -1,0 +1,62 @@
+# Gestão e Reserva de Veículos - Português (Portugal)
+# Copyright (C) 2026 Santiago Almendra
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: vehiclereservation 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-16 00:00+0000\n"
+"PO-Revision-Date: 2026-06-16 00:00+0000\n"
+"Last-Translator: Santiago Almendra\n"
+"Language-Team: Português (Portugal)\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/Vehicle.php
+msgid "Vehicle"
+msgid_plural "Vehicles"
+msgstr[0] "Veículo"
+msgstr[1] "Veículos"
+
+#: src/Vehicle.php
+msgid "Name"
+msgstr "Nome"
+
+#: src/Vehicle.php
+msgid "License plate"
+msgstr "Matrícula"
+
+#: src/Vehicle.php
+msgid "Make"
+msgstr "Marca"
+
+#: src/Vehicle.php
+msgid "Model"
+msgstr "Modelo"
+
+#: src/Vehicle.php
+msgid "Year"
+msgstr "Ano"
+
+#: src/Vehicle.php
+msgid "VIN (chassis number)"
+msgstr "VIN (número de chassis)"
+
+#: src/Vehicle.php
+msgid "Comment"
+msgstr "Comentário"
+
+#: src/Vehicle.php
+msgid "License plate is required."
+msgstr "A matrícula é obrigatória."
+
+#: setup.php
+msgid "This plugin requires GLPI >= %s"
+msgstr "Este plugin requer GLPI >= %s"
+
+#: setup.php
+msgid "Requires the \"Reservation Alert\" (reservationalert) plugin installed and enabled — it provides the tray notifications and the reservations cron."
+msgstr "Requer o plugin \"Reservation Alert\" (reservationalert) instalado e ativo — fornece as notificações de bandeja e o cron das reservas."
