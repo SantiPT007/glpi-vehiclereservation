@@ -89,6 +89,16 @@ class Vehicle extends CommonDBTM
         return $tabs;
     }
 
+    // campo numerico opcional deixado em branco chega como '' e o MariaDB em
+    // modo estrito rejeita '' num SMALLINT — normalizar para NULL
+    private function normalizeNumericInput(array $input): array
+    {
+        if (array_key_exists('year', $input) && trim((string) $input['year']) === '') {
+            $input['year'] = null;
+        }
+        return $input;
+    }
+
     public function prepareInputForAdd($input)
     {
         if (empty(trim((string) ($input['license_plate'] ?? '')))) {
@@ -99,7 +109,7 @@ class Vehicle extends CommonDBTM
             );
             return false;
         }
-        return $input;
+        return $this->normalizeNumericInput($input);
     }
 
     public function prepareInputForUpdate($input)
@@ -112,7 +122,7 @@ class Vehicle extends CommonDBTM
             );
             return false;
         }
-        return $input;
+        return $this->normalizeNumericInput($input);
     }
 
     public function showForm($id, array $options = [])
